@@ -99,7 +99,11 @@ a:hover{
 }
 
 
-
+.lead img {
+    max-width: 100%;
+    height: auto; 
+    object-fit: fill;
+    }
 
 
 .bar {
@@ -156,6 +160,7 @@ a:hover{
 	padding-bottom: 20px;
 	
 } 
+
 
 
 
