@@ -98,13 +98,6 @@ a:hover{
 }
 
 
-.lead img {
-    max-width: 100%;
-    height: auto; 
-    object-fit: contain;
-    }
-
-
 .bar {
     word-spacing: 0.3rem;
     margin-top: 0.5rem;
@@ -129,17 +122,6 @@ a:hover{
 
 }
 
-
-
-.center-image {
-  display: block; 
-  margin-left: auto; 
-  margin-right: auto; 
-  width: auto; 
-  height: auto; 
-  object-fit: contain;
-}
-
 .text {
   color: #FFFFFF; 
 }
@@ -150,14 +132,15 @@ a:hover{
 }
 */
 
-.highlight { 
-	border: 2px solid #FFFFFF; 
-        width: 60%;    
-        position: relative; 
-	left: 700px;
-	margin-top: 200px;
-	padding-bottom: 20px;
+.layout { 
+	display: grid;
+	grid-template-columns: repeat (3, 1fr);
+	gap: 30px; 
+	width: 80%
+	margin: auto; 
+	margin-top: 40px;
+}
 	
-} 
+
 
 
