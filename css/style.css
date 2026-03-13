@@ -102,7 +102,7 @@ a:hover{
 .lead img {
     max-width: 100%;
     height: auto; 
-    object-fit: contain;
+    object-fit: fill;
     }
 
 
@@ -138,7 +138,7 @@ a:hover{
   margin-right: auto; 
   width: auto; 
   height: auto; 
-  object-fit: contain;
+  object-fit: fill;
 }
 
 .text {
@@ -160,6 +160,7 @@ a:hover{
 	padding-bottom: 20px;
 	
 } 
+
 
 
 
